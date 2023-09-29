@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.badge {
+  background-color: #f5c518;
+  color: black;
+  padding: 5px;
+  display: inline-block;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+table,
+table td {
+  border: 1px solid #ccc;
+}
+
+table td {
+  padding: 7px;
+}
+
+.bg-primary {
+  background-color: #f3f3f3;
+}
+
+.p-60 {
+  padding: 60px 0px;
+}
+
+header {
+  height: 100px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+
+.container-column {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.container-row {
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  transition: all .4s;
+}
+
+li a:hover {
+  text-decoration: underline;
+}
+
+.slider {
+  width: 100%;
+  height: 360px;
+  background-image: url('./slide.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center center;
+  /* background-attachment: fixed; */
+}
+
+.products {
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.product {
+  padding: 10px;
+  border: 1px solid black;
+}
+
+
+.product-image {
+  margin-right: 60px;
+}
+
+.product-image img {
+  width: 300px;
+}
+
+.product img {
+  display: block;
+  width: auto;
+  height: 320px;
+}
+
+.product h3 {
+  height: 44px;
+}
+
+.product h3 a {
+  color: black;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.product h3 a:hover {
+  color: #f5c518;
+  text-decoration: underline;
+}
+
+.product a.details-btn {
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  padding: 8px 20px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.add-to-cart input {
+  border: 1px solid black;
+  padding: 5px 15px;
+  margin-right: 10px;
+}
+
+.add-to-cart button {
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 6px 15px;
+}
+
+.about {
+  padding: 60px 15%;
+  text-align: center;
+}
+
+footer {
+  padding: 10px 0px;
+  margin-top: 20px;
+  color: white;
+  background-color: black;
+}
+
+footer p {
+  text-align: center;
+}
