@@ -31,6 +31,31 @@ table td {
   padding: 7px;
 }
 
+.pagination {
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  list-style-type: none;
+}
+
+.pagination a {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 8px 16px;
+  transition: all .4s;
+}
+
+.pagination a:hover {
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
 .bg-primary {
   background-color: #f3f3f3;
 }
@@ -96,6 +121,7 @@ li a:hover {
 }
 
 .products {
+  width: 960px;
   padding: 20px 0px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -107,7 +133,6 @@ li a:hover {
   border: 1px solid black;
 }
 
-
 .product-image {
   margin-right: 60px;
 }
@@ -118,8 +143,9 @@ li a:hover {
 
 .product img {
   display: block;
-  width: auto;
-  height: 320px;
+  width: 180px;
+  height: auto;
+  margin: 0 auto;
 }
 
 .product h3 {
